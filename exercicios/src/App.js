@@ -1,7 +1,8 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 
-import Contador from './components/Contador';
+import Pai from './components/direta/Pai';
+//import Contador from './components/Contador';
 //import Botao from './components/Botao';
 //import Titulo from './components/Titulo';
 //import Aleatorio from './components/Aleatorio';
@@ -12,12 +13,10 @@ import Contador from './components/Contador';
 
 export default () => (
     <View style={style.App}>
-        {/*Setei propriedades específicas pra esse*/}
-        <Contador inicial={100} passo={13}/> 
-        {/*Está com as propriedades padrão*/}
+        <Pai />
+        
+        {/*<Contador inicial={100} passo={13}/> 
         <Contador /> 
-
-        {/*
         <Botao />
         <Aleatorio min={0} max={10}/>
         <Titulo  principal="Cadastro Produto" secundario="Tela de Cadastro do Produto"/>
