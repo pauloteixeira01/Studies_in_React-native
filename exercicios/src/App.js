@@ -1,6 +1,7 @@
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
+import { SafeAreaView, StyleSheet } from 'react-native';
 
+import ParImpar from './components/ParImpar';
 import Diferenciar from './components/Diferenciar';
 //import ContadorV2 from './components/contador/ContadorV2';
 //import Pai from './components/indireta/Pai';
@@ -14,29 +15,31 @@ import Diferenciar from './components/Diferenciar';
 
 
 export default () => (
-    <View style={style.App}>
-        <Diferenciar />
+    <SafeAreaView style={style.App}>
+        <ParImpar />
+        
         {/*
-            <ContadorV2 />
-            <Pai />
-            <Pai />
-            <Contador inicial={100} passo={13}/> 
-            <Contador /> 
-            <Botao />
-            <Aleatorio min={0} max={10}/>
-            <Titulo  principal="Cadastro Produto" secundario="Tela de Cadastro do Produto"/>
-            <Aleatorio min={0} max={10}/>
-            <Aleatorio min={0} max={10}/>
-            <Aleatorio min={0} max={10}/>
-            <Aleatorio min={0} max={10}/>
-            <MinMax min="3" max="20"/>
-            <MinMax min="1" max="94"/>
-            <CompPadrao />
-            <Comp1 />
-            <Comp2 />
-            <Primeiro />
+        <Diferenciar />
+        <ContadorV2 />
+        <Pai />
+        <Pai />
+        <Contador inicial={100} passo={13}/> 
+        <Contador /> 
+        <Botao />
+        <Aleatorio min={0} max={10}/>
+        <Titulo  principal="Cadastro Produto" secundario="Tela de Cadastro do Produto"/>
+        <Aleatorio min={0} max={10}/>
+        <Aleatorio min={0} max={10}/>
+        <Aleatorio min={0} max={10}/>
+        <Aleatorio min={0} max={10}/>
+        <MinMax min="3" max="20"/>
+        <MinMax min="1" max="94"/>
+        <CompPadrao />
+        <Comp1 />
+        <Comp2 />
+        <Primeiro />
         */}    
-    </View>
+    </SafeAreaView>
 )
 
 const  style = StyleSheet.create({
