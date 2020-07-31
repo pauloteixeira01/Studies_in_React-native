@@ -15,12 +15,15 @@ import { SafeAreaView, StyleSheet } from 'react-native';
 //import MinMax from './components/MinMax';
 //import CompPadrao, { Comp1, Comp2 } from './components/Multi';
 //import Primeiro from './components/Primeiro';
-import ListaProdutos from './components/produtos/ListaProdutos'
+//import ListaProdutos from './components/produtos/ListaProdutos'
+import ListaProdutosV2 from './components/produtos/ListaProdutosV2'
 
 export default () => (
     <SafeAreaView style={style.App}>
+
+        <ListaProdutosV2 />
+        {/*
         <ListaProdutos />
-    {/*
         <UsuarioLogado usuario={{nome: "Paulo", email: "contato@paulotx.com.br" }}/>
         <Familia>
             <Membro name="Mary" lastName="Lobo"/>
