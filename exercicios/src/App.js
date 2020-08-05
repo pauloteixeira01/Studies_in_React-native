@@ -17,46 +17,54 @@ import { SafeAreaView, StyleSheet } from 'react-native';
 //import Primeiro from './components/Primeiro';
 //import ListaProdutos from './components/produtos/ListaProdutos'
 //import ListaProdutosV2 from './components/produtos/ListaProdutosV2'
-import DigiteSeuNome from './components/DigiteSeuNome'
+//import DigiteSeuNome from './components/DigiteSeuNome'
+//import FlexboxV1 from './components/layout/FlexboxV1';
+//import FlexboxV2 from './components/layout/FlexboxV2';
+//import FlexboxV3 from './components/layout/FlexboxV3';
+import FlexboxV4 from './components/layout/FlexboxV4';
 
 export default () => (
     <SafeAreaView style={style.App}>
-        <DigiteSeuNome />
+        <FlexboxV4 />
         {/*
-        <ListaProdutosV2 />
-        <ListaProdutos />
-        <UsuarioLogado usuario={{nome: "Paulo", email: "contato@paulotx.com.br" }}/>
-        <Familia>
-            <Membro name="Mary" lastName="Lobo"/>
-            <Membro name="Danielle" lastName="Lobo"/>
-            <Membro name="Michelle" lastName="Lobo"/>
-            <Membro name="Cherlle" lastName="Lobo"/>
-            <Membro name="Júlia" lastName="Lobo"/>
-        </Familia>
-        <Familia>
-            <Membro name="João" lastName="Arruda"/>
-            <Membro name="Carla" lastName="Arruda"/>
-        </Familia>
-        <ParImpar />
-        <Diferenciar />
-        <ContadorV2 />
-        <Pai />
-        <Pai />
-        <Contador inicial={100} passo={13}/> 
-        <Contador /> 
-        <Botao />
-        <Aleatorio min={0} max={10}/>
-        <Titulo  principal="Cadastro Produto" secundario="Tela de Cadastro do Produto"/>
-        <Aleatorio min={0} max={10}/>
-        <Aleatorio min={0} max={10}/>
-        <Aleatorio min={0} max={10}/>
-        <Aleatorio min={0} max={10}/>
-        <MinMax min="3" max="20"/>
-        <MinMax min="1" max="94"/>
-        <CompPadrao />
-        <Comp1 />
-        <Comp2 />
-        <Primeiro />
+            <FlexboxV3 />
+            <FlexboxV2 />
+            <FlexboxV1 />
+            <DigiteSeuNome />
+            <ListaProdutosV2 />
+            <ListaProdutos />
+            <UsuarioLogado usuario={{nome: "Paulo", email: "contato@paulotx.com.br" }}/>
+            <Familia>
+                <Membro name="Mary" lastName="Lobo"/>
+                <Membro name="Danielle" lastName="Lobo"/>
+                <Membro name="Michelle" lastName="Lobo"/>
+                <Membro name="Cherlle" lastName="Lobo"/>
+                <Membro name="Júlia" lastName="Lobo"/>
+            </Familia>
+            <Familia>
+                <Membro name="João" lastName="Arruda"/>
+                <Membro name="Carla" lastName="Arruda"/>
+            </Familia>
+            <ParImpar />
+            <Diferenciar />
+            <ContadorV2 />
+            <Pai />
+            <Pai />
+            <Contador inicial={100} passo={13}/> 
+            <Contador /> 
+            <Botao />
+            <Aleatorio min={0} max={10}/>
+            <Titulo  principal="Cadastro Produto" secundario="Tela de Cadastro do Produto"/>
+            <Aleatorio min={0} max={10}/>
+            <Aleatorio min={0} max={10}/>
+            <Aleatorio min={0} max={10}/>
+            <Aleatorio min={0} max={10}/>
+            <MinMax min="3" max="20"/>
+            <MinMax min="1" max="94"/>
+            <CompPadrao />
+            <Comp1 />
+            <Comp2 />
+            <Primeiro />
         */}    
     </SafeAreaView>
 )
