@@ -16,7 +16,8 @@ export default props => {
 
 const style = StyleSheet.create({
     FlexV3: {
-        flexDirection: 'row',
+        //No react-native o eixo principal (main axis) é a coluna
+        flexDirection: 'row', //Mudar o padrão pra linha (main axis)
         justifyContent: "space-evenly",
         alignItems: 'flex-start',
         height: 350,
